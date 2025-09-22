@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <!--첫번째 줄-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:gravity="center">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            app:cardCornerRadius="100dp">
+
+            <ImageView
+                android:id="@+id/k1"
+                android:src="@drawable/kko1"
+                android:layout_width="110dp"
+                android:layout_height="150dp"/>
+
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            app:cardCornerRadius="100dp">
+
+            <ImageView
+                android:id="@+id/k2"
+                android:src="@drawable/kko2"
+                android:scaleType="fitXY"
+                android:layout_width="110dp"
+                android:layout_height="150dp"/>
+
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            app:cardCornerRadius="100dp">
+
+            <ImageView
+                android:id="@+id/k3"
+                android:layout_width="110dp"
+                android:layout_height="150dp"
+                android:src="@drawable/kko3" />
+
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+
+    <!--두번째 줄-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:gravity="center">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            app:cardCornerRadius="100dp">
+
+            <ImageView
+                android:id="@+id/k4"
+                android:src="@drawable/kko4"
+                android:layout_width="110dp"
+                android:scaleType="fitXY"
+                android:layout_height="150dp"/>
+
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            app:cardCornerRadius="100dp">
+
+            <ImageView
+                android:id="@+id/k5"
+                android:src="@drawable/kko5"
+                android:scaleType="fitXY"
+                android:layout_width="110dp"
+                android:layout_height="150dp"/>
+
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            app:cardCornerRadius="100dp">
+
+            <ImageView
+                android:id="@+id/k6"
+                android:src="@drawable/kko6"
+                android:layout_width="110dp"
+                android:layout_height="150dp" />
+
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+
+    <!--세번째 줄-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:gravity="center">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            app:cardCornerRadius="100dp">
+
+            <ImageView
+                android:id="@+id/k7"
+                android:src="@drawable/kko7"
+                android:layout_width="110dp"
+                android:layout_height="150dp"/>
+
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            app:cardCornerRadius="100dp">
+
+            <ImageView
+                android:id="@+id/k8"
+                android:src="@drawable/kko8"
+                android:scaleType="fitXY"
+                android:layout_width="110dp"
+                android:layout_height="150dp"/>
+
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            app:cardCornerRadius="100dp">
+
+            <ImageView
+                android:id="@+id/k9"
+                android:layout_width="110dp"
+                android:layout_height="150dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/kko9" />
+
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
