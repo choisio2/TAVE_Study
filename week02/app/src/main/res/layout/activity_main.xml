@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:visibility="visible"
     tools:context=".MainActivity">
 
     <!--첫번째 줄-->
@@ -23,11 +23,12 @@
 
             <ImageView
                 android:id="@+id/k1"
-                android:src="@drawable/kko1"
                 android:layout_width="110dp"
-                android:layout_height="150dp"/>
+                android:layout_height="150dp"
+                android:src="@drawable/kko1" />
 
         </androidx.cardview.widget.CardView>
+
         <androidx.cardview.widget.CardView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -36,12 +37,13 @@
 
             <ImageView
                 android:id="@+id/k2"
-                android:src="@drawable/kko2"
-                android:scaleType="fitXY"
                 android:layout_width="110dp"
-                android:layout_height="150dp"/>
+                android:layout_height="150dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/kko2" />
 
         </androidx.cardview.widget.CardView>
+
         <androidx.cardview.widget.CardView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -72,12 +74,13 @@
 
             <ImageView
                 android:id="@+id/k4"
-                android:src="@drawable/kko4"
                 android:layout_width="110dp"
-                android:scaleType="fitXY"
-                android:layout_height="150dp"/>
+                android:layout_height="150dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/kko4" />
 
         </androidx.cardview.widget.CardView>
+
         <androidx.cardview.widget.CardView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -86,12 +89,12 @@
 
             <ImageView
                 android:id="@+id/k5"
-                android:src="@drawable/kko5"
-                android:scaleType="fitXY"
                 android:layout_width="110dp"
-                android:layout_height="150dp"/>
+                android:layout_height="150dp"
+                android:src="@drawable/kko5" />
 
         </androidx.cardview.widget.CardView>
+
         <androidx.cardview.widget.CardView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -100,9 +103,9 @@
 
             <ImageView
                 android:id="@+id/k6"
-                android:src="@drawable/kko6"
                 android:layout_width="110dp"
-                android:layout_height="150dp" />
+                android:layout_height="150dp"
+                android:src="@drawable/kko6" />
 
         </androidx.cardview.widget.CardView>
 
@@ -122,11 +125,12 @@
 
             <ImageView
                 android:id="@+id/k7"
-                android:src="@drawable/kko7"
                 android:layout_width="110dp"
-                android:layout_height="150dp"/>
+                android:layout_height="150dp"
+                android:src="@drawable/kko7" />
 
         </androidx.cardview.widget.CardView>
+
         <androidx.cardview.widget.CardView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -135,12 +139,13 @@
 
             <ImageView
                 android:id="@+id/k8"
-                android:src="@drawable/kko8"
-                android:scaleType="fitXY"
                 android:layout_width="110dp"
-                android:layout_height="150dp"/>
+                android:layout_height="150dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/kko8" />
 
         </androidx.cardview.widget.CardView>
+
         <androidx.cardview.widget.CardView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -157,7 +162,6 @@
         </androidx.cardview.widget.CardView>
 
     </LinearLayout>
-
 
 
 </LinearLayout>
