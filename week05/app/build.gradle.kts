@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace = "com.example.week04_rc"
+    namespace = "com.example.week05"
     compileSdk = 36
 
     defaultConfig {
-        applicationId = "com.example.week04_rc"
+        applicationId = "com.example.week05"
         minSdk = 34
         targetSdk = 36
         versionCode = 1
@@ -42,9 +42,6 @@ dependencies {
     implementation(libs.material)
     implementation(libs.androidx.activity)
     implementation(libs.androidx.constraintlayout)
-    implementation(libs.androidx.navigation.fragment.ktx)
-    implementation(libs.androidx.navigation.ui.ktx)
-    implementation(libs.androidx.fragment)
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)

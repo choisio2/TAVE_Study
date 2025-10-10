@@ -4,12 +4,31 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content">
 
-    <TextView
-        android:id="@+id/rvItem"
-        android:text="rv"
-        android:textSize="20sp"
-        android:layout_margin="20dp"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"/>
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_vertical">
+
+        <!-- 위쪽 실선 구분선 (필요한 경우) -->
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="7dp"
+            android:background="@drawable/line" />
+
+        <TextView
+            android:id="@+id/rvTextId"
+            android:text="노래 리스트"
+            android:textSize="20sp"
+            android:layout_margin="10dp"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"/>
+
+
+    </LinearLayout>
+
 
 </LinearLayout>

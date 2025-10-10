@@ -1,15 +1,10 @@
-package com.example.week04_rc
+package com.example.week05
 
 import android.os.Bundle
-import android.view.View
-import android.widget.LinearLayout
-import android.widget.Toast
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
-import androidx.recyclerview.widget.LinearLayoutManager
-import androidx.recyclerview.widget.RecyclerView
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -21,14 +16,5 @@ class MainActivity : AppCompatActivity() {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
             insets
         }
-
-        // 1. navigation 만들기
-
-
-        // 2. Fragment 만들고 연결하기 -> 네이게이션에
-            // 2-1. Fragment에서 버튼 누르면 다른 fragment로 이동하기
-
-
-        // 3. 리사이클러뷰 만들기
     }
 }
