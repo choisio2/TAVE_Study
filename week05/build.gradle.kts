@@ -2,4 +2,7 @@
 plugins {
     alias(libs.plugins.android.application) apply false
     alias(libs.plugins.kotlin.android) apply false
+
+    // firebase 기본 세팅 - 복붙한거
+    id("com.google.gms.google-services") version "4.4.3" apply false
 }
